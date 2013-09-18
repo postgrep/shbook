@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# demonstrates the conversion of different bases
+# Name: bc_baseconvert.sh
+
+varDEZ=123
+
+echo $varDEZ
+
+# Dez2Hex
+
+var=`echo "obase=16; $varDEZ" | bc`
+echo $var
+
+# Dez2Oct
+var=`echo "obase=8 ; $varDEZ" | bc`
+echo $var
+
+# Dez2Bin
+var=`echo "obase=2 ; $varDEZ" | bc`
+echo $var
+
+# Bin2Dez - Reihenfolge von obase und ibase beachten
+dez=`echo "obase=10 ; ibase=2 ; $var" | bc`
+echo $dez

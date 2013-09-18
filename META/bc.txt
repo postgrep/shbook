@@ -1,0 +1,7 @@
+operations:
+
+s(x)    -> Sinus of x
+c(x)    -> Cosinus of x
+a(x)    -> Arcustangens of x
+1(x)    -> Natural logarithm of x
+e(x)    -> Exponential function e of x

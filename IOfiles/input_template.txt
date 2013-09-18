@@ -1,0 +1,7 @@
+Vorname: Hans 
+Nachname: Wurst
+Geschlecht: M
+Akadem.Grad: Dipl.Pfleger
+Staatsbürgerschaft: HU
+Anzahl_Kinder: 20
+Versicherungsnummer: 3817095

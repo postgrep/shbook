@@ -1,0 +1,20 @@
+a list of arithmetic operators in Bash and Korn-Shell
+
++,-,*,/     -> Addition, Subtraktion, Multiplikation, Division
+%           -> Modulo, Rest einer ganzzahligen Division
+var+=n      -> Kurzformen für +,-,*,/,%
+var-=n
+var*=n
+var/=n
+var%=n
+var>>n      -> bitweise Linksverschiebung um n Stellen
+var<<n      -> bitweise Rechtsverschiebung um n Stellen
+>>=         -> Kurzformen für die links- bzw. Rechtsverschiebung << und >>
+<<=
+var1&var2   -> bitweises UND
+var1^var2   -> bitweises exklusives ODER (XOR)
+var1|var2   -> bitweises ODER
+~           -> bitweise Negation
+&=          -> Kurzformen für bitweise UND, exklusives ODER sowie ODER (&, | und ^)
+^=
+|=
